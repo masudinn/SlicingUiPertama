@@ -8,6 +8,7 @@ import {
   View,
 } from 'react-native';
 import {BackgroundHome, Logo} from '../../asset/image';
+import {Saldo} from '../../componen';
 
 const Home = () => {
   return (
@@ -21,13 +22,14 @@ const Home = () => {
           <Text
             style={{
               fontSize: 18,
-              fontFamily: 'Roboto-Bold',
+              fontFamily: 'Roboto-Regular',
               marginTop: 7,
             }}>
             Udinganga
           </Text>
         </View>
       </ImageBackground>
+      <Saldo />
     </View>
   );
 };

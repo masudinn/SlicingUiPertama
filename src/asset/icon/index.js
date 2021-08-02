@@ -4,6 +4,8 @@ import IconPesananAct from '../icon/mesinact.svg';
 import IconPesanan from '../icon/mesin.svg';
 import IconHome from '../icon/home.svg';
 import IconHomeAct from '../icon/homeact.svg';
+import IconPoin from '../icon/poin.svg';
+import IconSaldo from '../icon/saldo.svg';
 
 export {
   IconAkun,
@@ -12,4 +14,6 @@ export {
   IconPesananAct,
   IconHome,
   IconHomeAct,
+  IconPoin,
+  IconSaldo,
 };
