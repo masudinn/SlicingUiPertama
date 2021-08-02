@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: '#ffff',
     padding: 15,
-    marginHorizontal: 30,
+    marginHorizontal: 15,
     borderRadius: 10,
     shadowColor: '#000',
     shadowOffset: {
@@ -44,18 +44,20 @@ const styles = StyleSheet.create({
     shadowRadius: 5.46,
     flexDirection: 'row',
     elevation: 9,
-    marginTop: -windowHeight * 0.05,
+    marginTop: -windowHeight * 0.06,
   },
   saldo: {
     width: '60%',
   },
   button: {
     flexDirection: 'row',
-    marginLeft: 10,
+    marginLeft: 3,
+    marginRight: 8,
   },
   text: {
     justifyContent: 'space-between',
     flexDirection: 'row',
+    marginRight: 10,
   },
   labelsaldo: {fontSize: 16, fontFamily: 'Roboto-Light'},
   valuesaldo: {fontSize: 17, fontFamily: 'Roboto-Regular'},
